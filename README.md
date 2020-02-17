@@ -1,25 +1,12 @@
-# As of 05 February 2020 
-### The plugin is in full maintenance mode
-### This means that, until further notice, the plugin will not be updated
-> Unfortunately I'm not actively playing FFXIV anymore, and lost interests also in the plugin development scenario.
-> 
-> I'm not deleting the repository, or archiving it, as you may not know when the will to come back to the game (and this plugin development) will return.
-> 
-> I hope that, by luck or good coding, you will still be able to use the plugin in the near future.
-> I wish every old (and new) user a very nice and safe journey in Eorzea, may the light of the crystal shine your paths!
-> 
-> Farewell! :)
->
->                                                              - Carlo (easly1989)
+**Please be patient, I am still working on migrating stuff from the old repository.  As for now, I am only maintaining patch updates here until I have more time to work on development for features, etc.
 
 # Duty Finder Assist Plugin for ACT
-### Based on the work from [devunt](https://github.com/devunt/DFAssist) and [lalafellsleep](https://github.com/lalafellsleep)
+### Based on the work from [devunt](https://github.com/devunt/DFAssist), [lalafellsleep](https://github.com/lalafellsleep), and [easly1989](https://github.com/easly1989/ffxiv_act_dfassist)
 
-![releases](https://img.shields.io/github/tag/easly1989/ffxiv_act_dfassist.svg)
-![issues](https://img.shields.io/github/issues/easly1989/ffxiv_act_dfassist.svg)
-![license](https://img.shields.io/github/license/easly1989/ffxiv_act_dfassist.svg)
-![downloads](https://img.shields.io/github/downloads/easly1989/ffxiv_act_dfassist/total.svg)
-[![paypal](https://img.shields.io/badge/support%20me-on%20paypal-blue)](https://www.paypal.me/ruggierocarlo)
+![releases](https://img.shields.io/github/tag/esibun/ffxiv_act_dfassist.svg)
+![issues](https://img.shields.io/github/issues/esibun/ffxiv_act_dfassist.svg)
+![license](https://img.shields.io/github/license/esibun/ffxiv_act_dfassist.svg)
+![downloads](https://img.shields.io/github/downloads/esibun/ffxiv_act_dfassist/total.svg)
 
 ![main](https://github.com/easly1989/ffxiv_act_dfassist/blob/master/images/main.png)
 
@@ -59,10 +46,3 @@ It seems like **lalafellsleep** simply stopped the development, and using an ext
 - [x] add PushBullet support
 - [x] add Discord support
 - [ ] Inject toasts in game (to make it work even in full screen mode)
-
----
-
-### If you like my work
-<a href="https://www.paypal.me/ruggierocarlo">
-  <img src="https://user-images.githubusercontent.com/3910202/35670996-5fb27278-073a-11e8-9a0a-7f951bbf04ff.png" width="25%" alt="Support with PayPal" />
-</a>
