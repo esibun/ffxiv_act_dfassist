@@ -33,16 +33,17 @@ namespace DFAssist.Core.Network
                 var opcode = BitConverter.ToUInt16(message, 18);
 
 #if !DEBUG
-                if(opcode != 0x0288 && 
-                   opcode != 0x01F8 &&
+                if(opcode != 0x0172 && 
+                   opcode != 0x025C &&
                    opcode != 0x022F) 
                     return;
 #endif
 #if DEBUG
                 _logger.Write($"--- Received opcode: {opcode}", LogLevel.Warn);
+
 #endif
                 var data = message.Skip(32).ToArray();
-                if (opcode == 0x0228) // 5.18 Duties
+                if (opcode == 0x0172) // 5.2 Duties
                 {
                     var rouletteCode = data[8];
 
@@ -61,7 +62,7 @@ namespace DFAssist.Core.Network
                         }
                     }
                 }
-                else if (opcode == 0x01F8) 
+                else if (opcode == 0x025C) 
                 {
                     var matchedRoulette = BitConverter.ToUInt16(data, 2);
                     var matchedCode = BitConverter.ToUInt16(data, 20);
