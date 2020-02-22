@@ -118,7 +118,7 @@ namespace DFAssist.Helpers
         private void CopyrightLinkOnLinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             _mainControl.CopyrightLink.LinkVisited = true;
-            System.Diagnostics.Process.Start("https://github.com/easly1989/ffxiv_act_dfassist");
+            System.Diagnostics.Process.Start("https://github.com/esibun/ffxiv_act_dfassist");
             _logger.Write("Opening link to the DFAssist github repository!", LogLevel.Debug);
         }
 
